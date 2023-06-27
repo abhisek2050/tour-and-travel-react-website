@@ -53,24 +53,24 @@ li{
     transform: translate(-50%);
     z-index: 9999;
 }
-button{
+.nav-link-mobile{
     padding: 0.7rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight:600;
     border: none;
     cursor: pointer;
     transition: 0.2s ease-in-out;
     margin-left: .8rem;
-}
-button:hover{
     background-color: #151516;
     color: #fff;
 }
-.nav-link-mobile{
-    display: none;
+.nav-link-mobile:hover{
+    background-color: #adff9d;
+    color: #222;
 }
+
 .menu-icons{
     display: none;
 }

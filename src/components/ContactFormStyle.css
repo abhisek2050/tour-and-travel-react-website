@@ -31,6 +31,13 @@
     display: inline;
     background: #b9b9b9;
     padding: .8rem;
+    border-radius: .3rem;
+}
+.form-container button:hover{
+    background: #01959a;
+    cursor: pointer;
+    color: #fff;
+    border: .1rem solid #2a2a2a;
 }
 
 
